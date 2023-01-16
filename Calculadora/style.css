@@ -1,0 +1,28 @@
+.min-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin: 2px;
+    padding: 2px;
+    box-shadow: 0px 1px 0px 1px rgb(8, 61, 26);
+}
+.calculadora{
+    min-width: 200px;
+    border-radius:32px;
+    box-shadow: 0px 3px 0px 3px blue;
+}
+.display{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+    height: 50px;
+    
+}
+#valor-anterior{
+    color: rgb(40, 96, 160); 
+    font-size: 20px;
+}
